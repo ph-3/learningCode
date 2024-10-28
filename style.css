@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray; 
+}
+ .product-card {
+  background-color :bisque;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+
+ }
+  .brand{
+    color: rgb(18, 18, 2);
+    font-family: 'Gill Sans';
+    padding-left: 100px;
+    text-align: left;
+    margin-left: -90px;
+    margin-top: -5px; 
+    
+ } 
+ .product-image{
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px ;
+ }
+ .product-name{
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333333;
+    margin-left: -80px;
+    margin-top: -20px;
+ }
+ .product-price{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    margin-right: -20px;
+   
+ }
+.original-price{
+    color: #888;
+    text-decoration: line-through;
+    font-size: 1em;
+}
+
+
+
+ .discounted-price{
+    color: black ;
+    font-weight: 700;
+    font-size: 1.2em;
+ }
+ .product-rating{
+     margin-top: 8px;
+     text-align: right;
+     
+ }
+ .product-rating .star {
+    font-size: 1.2em;
+    color: #68ec71; 
+}
+
+.product-rating .star.grey {
+    color: #ccc; /
+}
+.order{
+    text-align: center;
+    border: none;    
+    color: white;
+    padding: 6px 12px;
+    border-radius: 12px;
+    display: inline;
+    gap:unset
+ }
+ .cart{
+    text-align: left;
+    border: none; 
+    background-color: lightcoral ;    
+    color: white;
+    padding: 6px 12px;
+    border-radius: 12px;
+ } 
+ 
+ 
+ 
+
+ .wish{
+    text-align: right;
+    border: none; 
+    background-color:whitesmoke;    
+    color:black;
+    padding: 6px 12px;
+    border-radius: 12px;
+ }
+ .offer{
+    text-align: left;
+
+
+ }
+ .overlay-text{
+    positon: Absolute; /* Absolute positioning */
+    top: 28%; /* Vertical center */
+    left: 25%; /* Horizontal center */
+    color: white; /* Text color */
+    font-size: 14px; 
+    text-align: center; 
+    padding: 10px; 
+}
